@@ -1,0 +1,29 @@
+{
+  "name": "ht-cli",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ht",
+  "license": "MIT",
+  "bin": {
+    "ht-cli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilongjw/Qarticles.git"
+  },
+  "keywords": ["vue", "cli", "template"],
+  "bugs": {
+    "url": "https://github.com/hilongjw/Qarticles/issues"
+  },
+  "homepage": "https://github.com/hilongjw/Qarticles#readme",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "consolidate": "^0.15.0",
+    "download-git-repo": "^1.0.2",
+    "node-cmd": "^3.0.0"
+  }
+}

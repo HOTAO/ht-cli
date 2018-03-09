@@ -21,19 +21,13 @@ commander
 
 commander
   .version('1.0.0')
-  .option('-a, --aaa', 'aaaaa')
-  .option('-b, --bbb', 'bbbbb')
-  .option('-c, --ccc [name]', 'ccccc')
+  .option('-e, --email', '1019872217@qq.com')
+  .option('-p, --position', '前端攻城狮')
   .parse(process.argv)
 
-if (commander.aaa) {
-  console.log('aaa')
+if (commander.email) {
+  console.log('1019872217@qq.com')
 }
-
-if (commander.bbb) {
-  console.log('bbb')
-}
-
-if (commander.ccc) {
-  console.log('ccc', commander.ccc)
+if (commander.position) {
+  console.log('前端攻城狮--HT')
 }

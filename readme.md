@@ -10,7 +10,7 @@
   或
   yarn global add ht-cli
 
-# 下面只写yarn的命令，npm只是语法上有点不一样。命令还是和下面的一致
+# 下面只写yarn的命令，npm只是语法上有点不一样。命令还是和下面的一致
 
   yarn init [projectName]
 

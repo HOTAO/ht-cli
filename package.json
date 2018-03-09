@@ -1,6 +1,6 @@
 {
   "name": "ht-template-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -15,11 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/HOTAO/ht-cli.git"
   },
-  "keywords": [
-    "vue",
-    "cli",
-    "template"
-  ],
+  "keywords": ["vue", "cli", "template"],
   "bugs": {
     "url": "https://github.com/hilongjw/Qarticles/issues"
   },
